@@ -1,0 +1,79 @@
+#about {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.aboutTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: yellow;
+}
+
+.aboutDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    color: rgb(248, 243, 243);
+}
+
+.aboutBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.aboutBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.aboutBarText {
+    color: white;
+}
+
+.aboutBarText > h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: yellow;
+    margin-bottom: 0.5rem;
+}
+
+.aboutBarText > p {
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: rgb(248, 243, 243);
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 720px) {
+    .aboutBarText > p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutBarText > p {
+        font-size: 3vw;
+    }
+    .aboutBarText > h2 {
+        font-size: 5vw;
+    }
+}
+
+

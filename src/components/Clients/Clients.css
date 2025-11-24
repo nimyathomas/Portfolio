@@ -1,0 +1,98 @@
+#clients {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.clientsTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: yellow;
+}
+
+.clientsDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    color: rgb(248, 243, 243);
+}
+
+.clientsImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.clientImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: rgb(50, 50, 50);
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.clientImg:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 255, 0, 0.2);
+}
+
+.clientImage {
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    filter: brightness(0) invert(1);
+}
+
+.clientText {
+    text-align: center;
+}
+
+.clientText > h2 {
+    color: yellow;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.clientText > p {
+    color: rgb(248, 243, 243);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 585px) {
+    .clientImage {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    .clientText > h2 {
+        font-size: 1.2rem;
+    }
+    
+    .clientText > p {
+        font-size: 0.8rem;
+    }
+}
+
+
