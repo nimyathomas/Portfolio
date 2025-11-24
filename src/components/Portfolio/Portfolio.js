@@ -49,14 +49,7 @@ function Portfolio() {
       technologies: "Selenium WebDriver, Java, TestNG, Maven, Extent Reports",
       repoLink: "https://github.com/yourusername/automated-testing-suite"
     },
-    {
-      id: 6,
-      image: portfolio6,
-      title: "Cloud-Based Application",
-      description: "A scalable cloud application built with microservices architecture. The project demonstrates understanding of cloud computing concepts, containerization with Docker, and deployment strategies. Features include load balancing, auto-scaling, and cloud database integration. This project showcases modern software architecture and DevOps practices.",
-      technologies: "Python, Flask, Docker, AWS, PostgreSQL, Microservices",
-      repoLink: "https://github.com/yourusername/cloud-based-application"
-    }
+    
   ]
 
   return (
