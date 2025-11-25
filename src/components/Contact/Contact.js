@@ -33,7 +33,7 @@ function Contact() {
       </form>
       
       <div className="links">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <img src={require("../../assets/facebook.png")} alt="Facebook" className="link" />
         </a>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
@@ -44,7 +44,7 @@ function Contact() {
         </a>
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
           <img src={require("../../assets/instagram.png")} alt="Instagram" className="link" />
-        </a>
+        </a> */}
       </div>
     </section>
   )
