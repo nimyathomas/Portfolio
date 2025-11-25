@@ -20,35 +20,40 @@ function Portfolio() {
     {
       id: 2,
       image: portfolio2,
-      title: "Task Management App",
-      description: "A comprehensive task management application developed using Python and Django framework. Users can create, update, delete, and organize tasks with categories and priorities. Includes user authentication, task filtering, and real-time updates. The project demonstrates CRUD operations and database management skills.",
-      technologies: "Python, Django, SQLite, HTML, CSS, JavaScript",
-      repoLink: "https://github.com/yourusername/task-management-app"
-    },
-    {
-      id: 3,
-      image: portfolio3,
-      title: "Social Media Dashboard",
-      description: "A React-based dashboard application that displays social media analytics and data visualization. Built with modern React hooks, state management, and chart libraries. Features include real-time data updates, interactive charts, and a clean, intuitive user interface. This project showcases frontend development skills and data handling capabilities.",
-      technologies: "React, JavaScript, Chart.js, CSS3, REST API",
-      repoLink: "https://github.com/yourusername/social-media-dashboard"
-    },
-    {
-      id: 4,
-      image: portfolio4,
-      title: "API Integration Platform",
-      description: "A RESTful API development project using Java Spring Boot with React frontend. The platform allows users to integrate multiple third-party APIs, manage API keys, and monitor API usage. Includes JWT authentication, rate limiting, and comprehensive API documentation. Demonstrates backend development and API design skills.",
-      technologies: "Java, Spring Boot, React, JWT, PostgreSQL, Swagger",
-      repoLink: "https://github.com/yourusername/api-integration-platform"
-    },
-    {
-      id: 5,
-      image: portfolio5,
-      title: "Automated Testing Suite",
-      description: "A comprehensive Selenium-based test automation framework for web applications. The framework includes page object model design pattern, data-driven testing, cross-browser testing capabilities, and detailed test reporting. Automated test cases cover functional, regression, and smoke testing scenarios.",
-      technologies: "Selenium WebDriver, Java, TestNG, Maven, Extent Reports",
-      repoLink: "https://github.com/yourusername/automated-testing-suite"
-    },
+      title: "My Portfolio",
+      description: "A personal portfolio website built to showcase my skills, projects, and experience. It includes sections like About, Skills, Projects, and Contact. The website is fully responsive and developed using modern web technologies.",
+      technologies: "React.js, HTML, CSS, JavaScript",
+      repoLink: "https://github.com/nimyathomas/Portfolio"
+    }
+,
+    
+      {
+        id: 3,
+        image:portfolio3,
+        title: "Online Bookstore",
+        description: "A full-featured online bookstore application built using PHP and MySQL. It includes modules for browsing books, managing categories, user authentication, admin dashboard, book uploads, and order handling. The system demonstrates strong knowledge of CRUD operations, PHP backend development, and database integration.",
+        technologies: "PHP, MySQL, HTML, CSS, JavaScript",
+        repoLink: "https://github.com/nimyathomas/OnlineBookstore"
+      },
+      
+  
+      {
+        id: 4,
+        image:portfolio4,
+        title: "Dental Clinic Management System",
+        description: "A Java-based clinic management system designed to manage patient records, appointments, and doctor details. The project includes modules for registration, login, appointment scheduling, and data storage. It highlights core Java concepts such as OOP, Swing/GUI programming, and database connectivity.",
+        technologies: "Java, JDBC, MySQL",
+        repoLink: "https://github.com/nimyathomas/Project-dental-clinic"
+      },
+      
+    // {
+    //   id: 5,
+    //   image: portfolio5,
+    //   title: "Automated Testing Suite",
+    //   description: "A comprehensive Selenium-based test automation framework for web applications. The framework includes page object model design pattern, data-driven testing, cross-browser testing capabilities, and detailed test reporting. Automated test cases cover functional, regression, and smoke testing scenarios.",
+    //   technologies: "Selenium WebDriver, Java, TestNG, Maven, Extent Reports",
+    //   repoLink: "https://github.com/yourusername/automated-testing-suite"
+    // },
     
   ]
 

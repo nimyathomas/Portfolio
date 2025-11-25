@@ -11,7 +11,7 @@ function About() {
         <div className="aboutBar">
           <div className="aboutBarText">
             <h2>Education</h2>
-            <p>Bachelor's degree in Computer Science with a focus on web development and software engineering</p>
+            <p>Masters's degree in Computer Science with a focus on web development and software engineering</p>
           </div>
         </div>
         
@@ -25,7 +25,7 @@ function About() {
         <div className="aboutBar">
           <div className="aboutBarText">
             <h2>Technologies</h2>
-            <p>Java, Python, React, JavaScript, Node.js, SQL, Selenium, and various testing frameworks</p>
+            <p>Java, Python, React, JavaScript, Php, SQL, Selenium, and various  web frameworks and testing frameworks</p>
           </div>
         </div>
       </div>
@@ -34,5 +34,6 @@ function About() {
 }
 
 export default About
+
 
 

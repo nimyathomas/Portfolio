@@ -12,7 +12,7 @@ function Navbar() {
         <Link to="intro" spy={true} smooth={true} offset={-100} duration={500} className="desktopmenuitem">Home</Link>
         <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className="desktopmenuitem">About</Link>
         <Link to="portfolio" spy={true} smooth={true} offset={-100} duration={500} className="desktopmenuitem">Portfolio</Link>
-        <Link to="clients" spy={true} smooth={true} offset={-100} duration={500} className="desktopmenuitem">Clients</Link>
+        {/* <Link to="clients" spy={true} smooth={true} offset={-100} duration={500} className="desktopmenuitem">Clients</Link> */}
       </div>
       <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>
         <button className="desktopMenuButton">

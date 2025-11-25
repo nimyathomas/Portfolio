@@ -78,6 +78,12 @@
     animation: fadeIn 0.3s ease;
 }
 
+.errorMsg {
+    color: #ff6b6b;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -115,5 +121,3 @@
         font-size: 0.9rem;
     }
 }
-
-
